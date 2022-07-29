@@ -171,7 +171,7 @@ body {
 }
 
 #layer {
-	background-color: rgba(86, 125, 140, 0.7);
+	background-color: rgba(232, 199, 200, 0.7);
 	z-index: 1;
 	position: absolute;
 	top: 0;
@@ -228,7 +228,7 @@ body {
 	font-weight: 500;
 	font-size: 74pt;
 	line-height: 1;
-	color: #fff;
+	color: #000;
 	position: relative;
 }
 
@@ -240,7 +240,8 @@ body {
 	bottom: -34px;
 	left: 50%;
 	margin-left: -50px;
-	background-color: #fff;
+	background-color: #000;
+	color: #b9a0a1;
 }
 
 .title span {
@@ -254,7 +255,7 @@ body {
 }
 
 #center h2 {
-	color: #fff;
+	color: #000;
 	font-size: 18pt;
 	text-transform: uppercase;
 	margin-bottom: 15px;
@@ -263,7 +264,7 @@ body {
 .subtitle {
 	font-style: normal;
 	font-size: 18pt;
-	color: #fff;
+	color: #000;
 	font-family: Poppins, sans-serif;
 	font-weight: 300;
 	margin-top: 40px;
