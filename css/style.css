@@ -174,10 +174,10 @@ body {
 	position: absolute;
 	top: 50%;
 	left: 0;
-	z-index: -1;
+	z-index: 99;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-image: url('images/leaves.svg');
+	background-image: url('../images/leaves.svg');
 	background-size: contain;
 	-khtml-opacity: 0.6;
 	-moz-opacity: 0.6;
