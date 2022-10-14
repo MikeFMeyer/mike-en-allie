@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mike & Allie</title>
+	<script src="https://cdn.tailwindcss.com"></script>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,17 +16,16 @@
 </head>
 
 <body>
-	<div id="slideshow" data-zs-src='["images/1.jpg", "images/2.jpg", "images/3.jpeg", "images/4.jpg"]' data-zs-overlay="false" data-zs-bullets="false">
-		<div id="layer"></div>
-		<div id="content" class="container">
-			<div id="center">
-				<h2>Save the Date</h2>
-				<h1 class="title">
-					<span>Mike</span><small>&amp;</small><span>Allie's</span><br>
-          <span>Wedding</span>
+	<div id="slideshow" class="w-full h-screen relative overflow-hidden" data-zs-src='["images/1.jpg", "images/2.jpg", "images/3.jpeg", "images/4.jpg"]' data-zs-overlay="false" data-zs-bullets="false">
+		<div id="content">
+			<div class="flex flex-col align-center justify-around mx-auto">
+				<h2 class="text-black md:text-2xl text-xl uppercase mb-4">Save the Date</h2>
+				<h1 class="title font-medium text-4xl mb-4 xl:text-8xl lg:text-7xl md:text-6xl md:mb-12 sm:text-5xl leading-none text-black">
+					<span class="inline-block">Mike</span><small class="text-xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl inline-block px-6">&amp;</small><span class="inline-block">Allie's</span><br>
+          <span class="inline-block">Wedding</span>
 				</h1>
-				<div class="subtitle">FEB <span>18</span> 2023</div>
-				<h3 class="info">Invitations to follow</h3>
+				<div class="subtitle not-italic md:text-2xl text-base text-black font-light mt-10">FEB <span class="xl:text-6xl text-5xl relative top-2.5 pb-3 mx-3.5">18</span> 2023</div>
+				<h3 class="mt-24">Invitations to follow</h3>
 			</div>
 		</div>
 	</div>
