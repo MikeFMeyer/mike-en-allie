@@ -201,3 +201,51 @@ small {
 		max-width: 1320px;
 	}
 }
+
+
+.invite-box {
+	position: relative;
+  overflow: hidden;
+}
+
+.invite-box::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 35%;
+	right: -58%;
+	z-index: -1;
+	background-image: url('../images/leaves.svg');
+	background-repeat: no-repeat;
+	background-position: right 0px top 0px;
+	transform-origin: top right;
+	transform: rotate(110deg);
+	opacity: 20%;
+}
+.invite-box::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	bottom: -15%;
+	left: 33%;
+	z-index: -1;
+	background-image: url('../images/leaves.svg');
+	background-repeat: no-repeat;
+	background-position: left 0px bottom 0px;
+	transform-origin: bottom left;
+	transform: rotate(278deg);
+	opacity: 20%;
+}
+
+@media (min-width: 576px) {
+	.invite-box::before {
+		top: 35%;
+		right: -25%;
+	}
+	.invite-box::after {
+		bottom: 0%;
+		left: 15%;
+	}
+}
