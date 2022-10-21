@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyCkYxrFMgrByiEEywLQss8onKsfR-OLNpA",
+  apiKey: import.meta.env.FIREBASE_API_KEY,
   authDomain: "wedding-invites-5f1fe.firebaseapp.com",
   projectId: "wedding-invites-5f1fe",
   storageBucket: "wedding-invites-5f1fe.appspot.com",
