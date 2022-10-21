@@ -12,7 +12,7 @@
 	];
 
 	let invite = ref({})
-	const open = ref(false)
+	const open = ref(true)
 
 	onMounted(async () => {
 		const docRef = doc(db, "invites", "test-invite");

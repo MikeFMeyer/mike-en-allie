@@ -26,6 +26,8 @@
 		}
 	});
 
+	console.log(state)
+
 	const emit = defineEmits(['closeModal'])
 
 	let participants = ref(props.participants);
