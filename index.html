@@ -5,34 +5,22 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mike & Allie</title>
-	<script src="https://cdn.tailwindcss.com"></script>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poppins:wght@400;500&display=swap" rel="stylesheet"> 
-	<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
-	<link rel="stylesheet" href="css/zoomslider.css">
-	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poppins:wght@400;500&display=swap"
+		rel="stylesheet">
+	<title>Mike & Allie</title>
 </head>
 
 <body>
-	<div id="slideshow" class="w-full h-screen relative overflow-hidden" data-zs-src='["images/1.jpg", "images/2.jpg", "images/3.jpeg", "images/4.jpg"]' data-zs-overlay="false" data-zs-bullets="false">
-		<div id="content">
-			<div class="flex flex-col align-center justify-around mx-auto">
-				<h2 class="text-black md:text-2xl text-xl uppercase mb-4">Save the Date</h2>
-				<h1 class="title font-medium text-4xl mb-4 xl:text-8xl lg:text-7xl md:text-6xl md:mb-12 sm:text-5xl leading-none text-black">
-					<span class="inline-block">Mike</span><small class="xl:text-5xl lg:text-4xl md:text-3xl text-2xl inline-block px-6">&amp;</small><span class="inline-block">Allie's</span><br>
-          <span class="inline-block">Wedding</span>
-				</h1>
-				<div class="subtitle not-italic md:text-2xl text-base text-black font-light mt-10">FEB <span class="xl:text-6xl text-5xl relative top-2.5 pb-3 mx-3.5">18</span> 2023</div>
-				<h3 class="mt-24">Invitations to follow</h3>
-			</div>
-		</div>
-	</div>
-
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/jquery.zoomslider.min.js"></script>
+	<div id="app"></div>
+	<script type="module" src="/src/main.js"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+	<script defer src="/src/assets/js/jquery-1.12.4.min.js"></script>
+	<script defer src="/src/assets/js/jquery.zoomslider.min.js"></script>
 </body>
 
 </html>
