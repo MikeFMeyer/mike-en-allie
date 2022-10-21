@@ -7,7 +7,7 @@
 		TransitionRoot,
 		Switch,
 	} from "@headlessui/vue";
-	import { ref, defineEmits } from "vue";
+	import { ref } from "vue";
 	import { doc, updateDoc, serverTimestamp } from "firebase/firestore";
 	import { db } from "@/firebase";
 
