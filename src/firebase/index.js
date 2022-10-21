@@ -10,14 +10,11 @@ const firebaseConfig = {
   appId: "1:681510411650:web:3353726b50d0d4b420c39b"
 };
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
-
 const appCheck = initializeAppCheck(app, {
   provider: new ReCaptchaV3Provider('6LfUAp0iAAAAAGax-qffMCve-jXk64_4EgjwmzpB'),
-
-  // Optional argument. If true, the SDK automatically refreshes App Check
-  // tokens as needed.
   isTokenAutoRefreshEnabled: true
 });
+const db = getFirestore(app);
+
 
 export { db };
