@@ -12,3 +12,4 @@ jobs:
         username: 'mikefmeyer'
         reponame: 'mike-en-allie'
         token: ${{ secrets.GITHUB_TOKEN }}
+        cname: 'mike-en-allie.co.za'
