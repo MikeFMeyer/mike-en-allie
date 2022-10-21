@@ -5,10 +5,10 @@
 	import Participants  from "@/components/Participants.vue"
 
 	let images = [
-		'"/src/assets/images/1.jpg"',
-		'"/src/assets/images/2.jpg"',
-		'"/src/assets/images/3.jpeg"',
-		'"/src/assets/images/4.jpg"',
+		'"/images/1.jpg"',
+		'"/images/2.jpg"',
+		'"/images/3.jpeg"',
+		'"/images/4.jpg"',
 	];
 
 	let invite = ref({})
