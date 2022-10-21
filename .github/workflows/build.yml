@@ -13,3 +13,5 @@ jobs:
         reponame: 'mike-en-allie'
         token: ${{ secrets.GITHUB_TOKEN }}
         cname: 'mike-en-allie.co.za'
+      env:
+        FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}

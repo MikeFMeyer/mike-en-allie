@@ -1,8 +1,7 @@
 import { initializeApp } from "firebase/app";
-// import { initializeAppCheck, ReCaptchaV3Provider }from "firebase/app-check";
 import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyCkYxrFMgrByiEEywLQss8onKsfR-OLNpA",
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "wedding-invites-5f1fe.firebaseapp.com",
   projectId: "wedding-invites-5f1fe",
   storageBucket: "wedding-invites-5f1fe.appspot.com",
@@ -10,10 +9,6 @@ const firebaseConfig = {
   appId: "1:681510411650:web:3353726b50d0d4b420c39b"
 };
 const app = initializeApp(firebaseConfig);
-// const appCheck = initializeAppCheck(app, {
-//   provider: new ReCaptchaV3Provider('6LfUAp0iAAAAAGax-qffMCve-jXk64_4EgjwmzpB'),
-//   isTokenAutoRefreshEnabled: true
-// });
 const db = getFirestore(app);
 
 
