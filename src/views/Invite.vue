@@ -93,7 +93,7 @@
 			>
 				RSVP
 			</button>
-			<span class="mt-10 text-center text-black underline">More info</span>
+			<router-link to="/more" class="mt-10 text-center text-black underline">More info</router-link>
 			<Participants @closeModal="closeModal" :state="open" v-if="Object.keys(invite).length !== 0" :participants="invite.participants" :docId="invite.id"/>
 		</div>
 	</div>

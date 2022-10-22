@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Invite from '../views/Invite.vue'
 import NotFound from '../views/NotFound.vue'
+import More from '../views/More.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -16,6 +17,11 @@ const router = createRouter({
       path: '/invite/:id',
       name: 'invite',
       component: Invite
+    },
+    {
+      path: '/more',
+      name: 'more',
+      component: More
     }
   ]
 })
