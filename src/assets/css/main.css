@@ -253,3 +253,10 @@ small {
 		left: 15%;
 	}
 }
+
+#slideshow {
+	background-image: url('/images/1.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
