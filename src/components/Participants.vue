@@ -68,7 +68,7 @@
 
 			<div class="fixed inset-0 z-10 overflow-y-auto">
 				<div
-					class="flex items-end justify-center min-h-full p-4 text-center sm:items-center sm:p-0"
+					class="flex justify-center min-h-full p-4 text-center items-center sm:p-0"
 				>
 					<TransitionChild
 						as="template"
