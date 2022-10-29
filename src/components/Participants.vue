@@ -33,15 +33,25 @@
 	const docRef = doc(db, "invites", props.docId);
 
 	async function submit() {
-		let newArray = [];
-		Object.values(participants.value).forEach((item) => {
-			newArray.push({ person: item.person, coming: item.coming });
-		});
-		await updateDoc(docRef, {
-			participants: newArray,
-			updated: serverTimestamp(),
-		});
-		emit("closeModal")
+    // Check before RSVP date
+    let today = new Date()
+    today.setHours(0,0,0,0,0)
+    let rsvp = new Date(2023, 0, 10)
+
+    if (today < rsvp) {
+      let newArray = [];
+      Object.values(participants.value).forEach((item) => {
+        newArray.push({ person: item.person, coming: item.coming });
+      });
+      await updateDoc(docRef, {
+        participants: newArray,
+        updated: serverTimestamp(),
+      });
+      emit("closeModal")
+    } else {
+      alert("It's past the RSVP time. Can't RSVP anymore")
+      emit("closeModal")
+    }
 	}
 
 	function closeModal() {
