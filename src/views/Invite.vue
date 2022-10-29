@@ -84,8 +84,8 @@
 				<span class="inline-block">Mike</span><small class="inline-block px-6 text-2xl xl:text-5xl lg:text-4xl md:text-3xl">&amp;</small><span class="inline-block">Allie's</span><br>
 				<span class="inline-block">Wedding</span>
 			</h1>
-			<p class="mt-10 text-base not-italic font-light text-black md:text-2xl">When: <strong class="font-bold">18 February 2023, 14:00</strong></p>
-			<p class="mt-10 text-base not-italic font-light text-black md:text-2xl">Where: <a href="https://www.google.com/maps/search/?api=1&query=bell+and+blossom" target="_blank" class="underline"><strong class="font-bold">Bell & Blossom Wedding Venue</strong></a></p>
+			<p class="mt-10 text-base not-italic font-light text-black md:text-2xl">When: <strong class="font-bold">18 February 2023, 14:00 for 15:00</strong></p>
+			<p class="mt-10 text-base not-italic font-light text-black md:text-2xl">Where: <a href="https://www.google.com/maps/search/?api=1&query=bell+and+blossom" target="_blank" class="underline"><strong class="font-bold">Bell & Blossom Wedding Venue, Pretoria</strong></a></p>
 			<span class="mt-12 text-center text-black">RSVP before 10 January 2023</span>
 			<button
 				@click="openModal"
