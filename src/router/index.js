@@ -3,7 +3,6 @@ import Home from '../views/Home.vue'
 import Invite from '../views/Invite.vue'
 import NotFound from '../views/NotFound.vue'
 import More from '../views/More.vue'
-import Gifts from '../views/Gifts.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,11 +22,6 @@ const router = createRouter({
       path: '/more',
       name: 'more',
       component: More
-    },
-    {
-      path: '/gifts',
-      name: 'gifts',
-      component: Gifts
     }
   ]
 })
