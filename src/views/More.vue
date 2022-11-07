@@ -45,6 +45,19 @@
 							<p>Please wear formal wear.</p>
             </DisclosurePanel>
           </Disclosure>
+          <Disclosure as="div" class="pt-6" v-slot="{ open }">
+            <dt class="text-lg">
+              <DisclosureButton class="flex w-full items-start justify-between text-left text-gray-400">
+                <span class="font-medium text-gray-900">Wedding Gifts?</span>
+                <span class="ml-6 flex h-7 items-center">
+                  <ChevronDownIcon :class="[open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform']" aria-hidden="true" />
+                </span>
+              </DisclosureButton>
+            </dt>
+            <DisclosurePanel as="div" class="mt-10">
+							<p>Should you wish to contribute, gifts and cash are welcome.</p>
+            </DisclosurePanel>
+          </Disclosure>
         </dl>
       </div>
     </div>
